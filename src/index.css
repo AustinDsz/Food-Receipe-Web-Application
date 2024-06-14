@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('non.geist');
+
+* {
+  font-family: 'Geist Variable';
+}
+
+
+.truncate-multiline {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+:root{
+    background-color: antiquewhite;
+}
+
